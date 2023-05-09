@@ -17,6 +17,9 @@
 		EC4087922A0742340035DCA6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4087912A0742340035DCA6 /* SettingsView.swift */; };
 		EC4087942A0742510035DCA6 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4087932A0742510035DCA6 /* AppView.swift */; };
 		EC4087962A0790920035DCA6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4087952A0790920035DCA6 /* HeaderView.swift */; };
+		ECCF08162A0A96C4007A4157 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF08152A0A96C4007A4157 /* HeaderModel.swift */; };
+		ECCF08182A0A977C007A4157 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF08172A0A977C007A4157 /* HeaderData.swift */; };
+		ECCF081A2A0A9E3A007A4157 /* CookingWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF08192A0A9E3A007A4157 /* CookingWayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		EC4087912A0742340035DCA6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EC4087932A0742510035DCA6 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		EC4087952A0790920035DCA6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		ECCF08152A0A96C4007A4157 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		ECCF08172A0A977C007A4157 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		ECCF08192A0A9E3A007A4157 /* CookingWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingWayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		EC4087892A07410E0035DCA6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				ECCF08172A0A977C007A4157 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -92,6 +99,7 @@
 		EC40878A2A0741180035DCA6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ECCF08152A0A96C4007A4157 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				EC4087952A0790920035DCA6 /* HeaderView.swift */,
+				ECCF08192A0A9E3A007A4157 /* CookingWayView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,9 +200,12 @@
 				EC40878E2A07421C0035DCA6 /* BeijingView.swift in Sources */,
 				EC40877C2A072C1B0035DCA6 /* FoodView.swift in Sources */,
 				EC4087942A0742510035DCA6 /* AppView.swift in Sources */,
+				ECCF081A2A0A9E3A007A4157 /* CookingWayView.swift in Sources */,
 				EC40877A2A072C1B0035DCA6 /* SecondAppApp.swift in Sources */,
 				EC4087922A0742340035DCA6 /* SettingsView.swift in Sources */,
 				EC4087902A0742280035DCA6 /* HutongView.swift in Sources */,
+				ECCF08162A0A96C4007A4157 /* HeaderModel.swift in Sources */,
+				ECCF08182A0A977C007A4157 /* HeaderData.swift in Sources */,
 				EC4087962A0790920035DCA6 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

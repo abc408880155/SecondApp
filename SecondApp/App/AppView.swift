@@ -13,35 +13,35 @@ struct AppView: View {
     var body: some View {
         TabView {
             BeijingView()
-            .tabItem(){
-                Image("TabIcon-Beijing")
-                Text("北京")
-      
-            }
-            
+                    .tabItem() {
+                        Image("TabIcon-Beijing")
+                        Text("北京")
+
+                    }
+
             FoodView()
-                .tabItem(){
-                    Image("TabIcon-Food")
-                    Text("小吃")
-                    
-                }
-            
+                    .tabItem() {
+                        Image("TabIcon-Food")
+                        Text("小吃")
+
+                    }
+
             HutongView()
-                .tabItem(){
-                    Image("TabIcon-Hutong")
-                    Text("胡同")
-                    
-                }
-            
+                    .tabItem() {
+                        Image("TabIcon-Hutong")
+                        Text("胡同")
+
+                    }
+
             SettingsView()
-                .tabItem(){
-                    Image("TabIcon-Settings")
-                    Text("设置")
-                    
-                }
+                    .tabItem() {
+                        Image("TabIcon-Settings")
+                        Text("设置")
+
+                    }
         } // : TabView
-        // 让文本的颜色匹配系统主色
-        .accentColor(Color.primary)
+                // 让文本的颜色匹配系统主色
+                .accentColor(Color.primary)
     }
 }
 
